@@ -110,11 +110,11 @@ export const ProductItem = ({
 };
 
 
-interface HoveredLinkProps extends React.AnchorHTMLAttributes<HTMLAnchorElement> {
-  children: React.ReactNode | null;
-}
+// interface HoveredLinkProps extends React.AnchorHTMLAttributes<HTMLAnchorElement> {
+//   children: React.ReactNode | string;
+// }
 
-export const HoveredLink = ({ children, ...rest }: HoveredLinkProps) => {
+export const HoveredLink = ({ children, ...rest }: any) => {
   return (
     <Link
       {...rest}
