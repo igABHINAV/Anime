@@ -39,6 +39,12 @@ export function Navbar({ className }: { className?: string }) {
               description="The GOAT anime"
             />
             <ProductItem
+              title="Demon Slayer"
+              href="/deathnote"
+              src="https://wallpapers.com/images/hd/demon-slayer-background-k1wsbofqh919323x.jpg"
+              description="anime with the best animation !!"
+            />
+            <ProductItem
               title="Attack On Titan"
               href="/aot"
               src="https://p.potaufeu.asahi.com/8729-p/picture/25249913/808e737d2d0b360ae40d537f91554ae0.jpg"
